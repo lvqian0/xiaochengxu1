@@ -1,0 +1,17 @@
+/* pages/wode5/wode5.wxss */
+.tex{
+  display: flex;
+  flex-direction: row;
+  height: 50rpx;
+}
+.intex {
+  color: #aaa;
+}
+.total{
+  width: 750rpx;
+  height: 800rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}

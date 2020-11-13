@@ -1,0 +1,45 @@
+<!--pages/addFunction/addFunction.wxml-->
+<view class="container">
+  <view class="page-body">
+
+    <view class="page-image">
+    <image src="../../images/add.png" />
+  </view>
+
+ 
+  <view class="page-section">
+    <view class="weui-cells__title">姓名</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" maxlength="10" placeholder="请输入您的姓名" />
+      </view>
+    </view>
+  </view>
+  
+
+  <view class="page-section">
+    <view class="weui-cells__title">电话</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" type="number" placeholder="请输入手机号" />
+      </view>
+    </view>
+  </view>
+ 
+  <view class="page-section">
+    <view class="weui-cells__title">物品简介</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" type="string" placeholder="请描述您捡到的物品" />
+      </view>
+    </view>
+  </view>
+  </view>
+
+  <view class="button">
+    <button type="primary">提交 submit</button>
+</view>
+
+
+
+</view>

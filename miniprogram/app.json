@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/wode2/wode2",
+    "pages/wode3/wode3",
+    "pages/wode4/wode4",
+    "pages/wode5/wode5",
+     "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/xiangqing/xiangqing",
+     "pages/fenlei/fenlei"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云云找物",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/images/00.png",
+      "selectedIconPath": "/images/0.png"
+    },
+    {
+      "pagePath": "pages/deployFunctions/deployFunctions",
+      "text": "个人中心",
+      "iconPath": "/images/00.png",
+      "selectedIconPath": "/images/0.png"
+    }]
+  }, 
+    "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+ 
+  "sitemapLocation": "sitemap.json"
+}

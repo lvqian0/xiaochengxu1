@@ -1,0 +1,15 @@
+<!--pages/wode3/wode3.wxml-->
+<view class='total'>
+<image src='../image/umb.png'></image>
+<view clsaa='tex'>
+<text>详情：</text><text>详情预留</text>
+</view>
+<view clsaa='tex'>
+<text>联系方式：</text><text>联系方式预留</text>
+</view>
+<view clsaa='tex'>
+<text>备注：</text><text>备注预留</text>
+</view>
+<button class='bun'>删除</button>
+</view>
+

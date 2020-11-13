@@ -1,0 +1,10 @@
+<!--pages/wode5/wode5.wxml-->
+<view class="total">
+<view class='tex'>
+<text>联系电话:</text><input placeholder="请输入联系电话" style="width:300rpx" class="intex"></input>
+</view>
+<view class='tex'>
+<text>学院:</text><input placeholder="请输入所在学院" style="width:300rpx" class="intex"></input>
+</view>
+<button>保存</button>
+</view>

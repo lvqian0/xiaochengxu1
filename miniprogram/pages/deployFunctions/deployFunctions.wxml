@@ -1,0 +1,21 @@
+<view>
+  <view class="total">
+        <view class="head">
+          <open-data type="userAvatarUrl"></open-data>
+        </view>
+        <view class="tex">
+            <text>姓名:</text><open-data type="userNickName"></open-data>
+        </view>
+        <view class="tex">
+            <text>电话:</text><text>电话号码预留</text>
+        </view>
+        <view class="tex">
+            <text>学院:</text><text>学院预留</text>
+        </view>
+        <view class="total_bun" class="bun">
+          <navigator url="/pages/wode5/wode5"><button>完善资料</button></navigator>
+          <navigator url="/pages/wode2/wode2"><button>我的记录</button></navigator>
+        <button>意见反馈</button>
+      </view>
+      </view>
+      </view>

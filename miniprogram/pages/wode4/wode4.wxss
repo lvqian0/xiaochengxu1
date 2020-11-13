@@ -1,0 +1,19 @@
+/* pages/wode4/wode4.wxss */
+.total{
+  width: 750rpx;
+  height: 1000rpx;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+}
+.tex{
+  display: flex;
+  flex-direction: row;
+  height: 50rpx;
+}
+.bun{
+  background-color: rgb(241, 14, 60);
+  width: 50%;
+  border-radius: 50%;
+  color: rgb(253, 253, 253);
+}

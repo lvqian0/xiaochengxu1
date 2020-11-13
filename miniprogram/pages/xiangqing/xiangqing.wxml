@@ -1,0 +1,16 @@
+<!--pages/xiangqing/xiangqing.wxml-->
+<view class="images">
+  <image class='tupian' src="../../images/umb.png" ></image>
+</view>
+<view class="miaoshu">
+  <view class='xiangqing' >详情:</view>
+  <scroll-view scroll-y class="neirong" >详情描述...</scroll-view>
+</view>
+<view class="lianxi">
+  <text class="call">联系方式:</text>
+  <view class="callnum">139***</view>
+</view>
+<view class="xijie">
+  <text>备注:</text>
+  <view scroll-view class="detail">~~~~~</view>
+</view>

@@ -1,0 +1,48 @@
+/* pages/xiangqing/xiangqing.wxss */
+.images{
+  display: flex;
+  justify-content: center;
+}
+.tupian{
+  width: 600rpx;
+  height: 400rpx;
+}
+.miaoshu{
+  /* display: flex; */
+  /* justify-content: center; */
+  margin-top: 50rpx;
+  margin-left: 50rpx;
+  align-items: center;
+  height: 100rpx;
+}
+.xiangqing{
+  justify-content: center;
+  margin-top: 50rpx;
+  align-items: center;
+  width: 20 rpx;
+}
+.neirong{
+  /* display: flex; */
+   margin-top: 5rpx;
+   height: 100rpx;
+}
+.lianxi{
+  /* margin-top: 50rpx; */
+  margin-top: 150rpx;
+  margin-left: 50rpx;
+  align-items: center;
+  height: 100rpx;
+  width: 10 rpx;
+}
+.xijie{
+  margin-top: 50rpx;
+  margin-left: 50rpx;
+  align-items: center;
+  height: 100rpx;
+}
+.call{
+  margin-top: 20rpx;
+}
+.callnum{
+  margin-top: 10rpx;
+}

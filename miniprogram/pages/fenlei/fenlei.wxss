@@ -1,0 +1,113 @@
+/* pages/fenlei/fenlei.wxss */
+
+.cates{
+  height: 100%;
+}
+.cates_container{
+  /* height: calc(100vh-90rpx); */
+  display: flex;
+  height: 100%;
+}
+.left_menu{
+  /* 高度默认值为100% */
+  /* flex: 2; */
+  width: 25%;
+  /* height: 100%; */
+  
+}
+.right_content{
+  /* flex: 5; */
+  position: absolute;
+  /* top: 0; */
+  right: 0;
+  /* flex: 1; */
+  /*宽度75%，高度占满，并使用百分比布局*/
+  width: 75%;
+  height: 100%;
+  /* margin-top: 50rpx; */
+  /* padding: 10px; */
+  /* box-sizing: border-box; */
+  background: #fff;
+}
+.active{
+  color: brown;
+  border-left: 5rpx solid currentColor;
+}
+.wenhui{
+  height: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+}
+.zhongbang{
+  height: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+}
+.lixing{
+  height: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+}
+.gewu{
+  height: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+}
+.tushuguan{
+  height: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+}
+.select {
+  background-color: #ffffff;
+  border-left: 2px solid #36AE66;
+  font-weight: bold;
+  color: #36AE66;
+  height: 80rpx;
+  /* width: 100rpx; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+}
+.normal {
+  background-color: #F4F4F4;
+  border-bottom: 1px solid #f2f2f2;
+  height: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+}
+.zhanshi{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  
+
+}
+.zhanshi.wupin.navigator{
+  /* width: 33.33%; */
+  /* text-align: center; */
+  justify-content: center;
+  /* margin-bottom: 40rpx; */
+}
+/* .zhanshi.wupin.navigator.wupintupian{
+  
+} */
+.zhanshi.wupin.navigator.name{
+  align-items: center;
+  justify-content: center;
+  text-size-adjust: 3;
+}

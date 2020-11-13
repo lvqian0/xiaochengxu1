@@ -1,0 +1,23 @@
+/* pages/addFunction/addFunction.wxss */
+.page-image{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  }
+
+.weui-cells__title{
+  align-items: center;
+  height: 50rpx;
+  display: flex;
+  flex-direction: row;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  
+}
+.button{
+  display: flex;
+  flex-direction:column;
+  height: 300rpx;
+ justify-content: space-around;
+}
+

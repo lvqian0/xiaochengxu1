@@ -1,0 +1,85 @@
+<!--index.wxml-->
+
+<view class="container">
+<SearchInput></SearchInput>
+    <view class="selection">
+    <swiper indicator-dots="true"
+        autoplay="true" interval="3000" duration="1000" style="width:300px ">
+          <swiper-item>
+            <image src='/images/2.png' class="slide-image" width="355" height="150"/>
+          </swiper-item>
+        <swiper-item>
+          <image src='/images/2.png' class="slide-image" width="355" height="150"/>
+          </swiper-item>
+          <swiper-item>
+            <image src='/images/2.png' class="slide-image" width="355" height="150"/>
+          </swiper-item>
+      </swiper>
+    </view>
+
+    <view class="button">
+  <navigator url="../addFunction/addFunction" >
+    <button>我要发布</button>
+ </navigator> 
+</view>
+
+
+  <view class="content">
+    <navigator url="../fenlei/fenlei" >
+    <view class="content-item">     
+     <image src="../../images/5.png" />
+     <view class="content-item-text">
+     <text>卡类</text>
+     </view>
+     </view>
+</navigator>
+
+<navigator url="../fenlei/fenlei">
+    <view class="content-item">
+      <image src="../../images/7.png" />
+      <view class="content-item-text">
+      <text>杯子类</text>
+      </view>
+    </view>
+  </navigator>
+
+  <navigator url="../fenlei/fenlei" >
+    <view class="content-item">
+      <image src="../../images/8.png" />
+      <view class="content-item-text">
+      <text>伞类</text>
+      </view>
+    </view>
+  </navigator>
+
+  <navigator url="../fenlei/fenlei" >
+    <view class="content-item">
+      <image src="../../images/9.png" />
+      <view class="content-item-text">
+      <text>电子产品</text>
+      </view>
+    </view>
+  </navigator>
+
+  <navigator url="../fenlei/fenlei">
+    <view class="content-item">
+      <image src="../../images/10.png" /> 
+       <view class="content-item-text">
+      <text>书类</text>
+      </view>
+    </view>
+    </navigator>
+
+    <navigator url="../fenlei/fenlei">
+    <view class="content-item">
+      <image src="../../images/end.png" />
+      <view class="content-item-text">
+      <text>其他</text>
+    </view>
+    </view>
+    </navigator>
+
+
+  </view>
+</view>
+

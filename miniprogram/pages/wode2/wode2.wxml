@@ -1,0 +1,10 @@
+<!--pages/wode2/wode2.wxml-->
+
+<view class="tab">
+	<view data-i="{{0}}" bindtap="setTabIndex" class="{{activeIndex===0?'active':''}}">我发布的</view>
+	<view data-i="{{1}}" bindtap="setTabIndex" class="{{activeIndex===1?'active':''}}">我找到的</view>
+</view>
+ 
+<view wx:if="{{activeIndex===0}}"><view class="total" class="bun_op"> <navigator url="/pages/wode3/wode3"><button plain="true" ><image src='../../images/umb.png'></image></button></navigator><navigator url="/pages/wode3/wode3"><button plain="true" ><image src='../../images/umb.png'></image></button></navigator></view></view>
+<view wx:if="{{activeIndex===1}}">
+<view class="total" class="bun_op"> <navigator url="/pages/wode4/wode4"><button plain="true" ><image src='../../images/comp.png'></image></button></navigator></view></view>

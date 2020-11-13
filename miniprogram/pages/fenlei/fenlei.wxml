@@ -1,0 +1,39 @@
+<!--pages/fenlei/fenlei.wxml-->
+  <SearchInput></SearchInput>
+  <view class="cates_container">
+    <!-- 左侧菜单  scoll-view组件-->
+    <view  class="left_menu">
+      <!-- <view class="gewu {{index===currentIndex?'active':''}}">格物楼</view>
+      <view class="lixing {{index===currentIndex?'active':''}}">力行楼</view>
+      <view class="wenhui {{index===currentIndex?'active':''}}">文汇楼</view>
+      <view class="zhongbang {{index===currentIndex?'active':''}}">中山邦瀚楼</view>
+      <view class="tushuguan {{index===currentIndex?'active':''}}">图书馆</view> -->
+      <view class="{{flag==0?'select':'normal'}}" id='0' bindtap='switchNav'>格物楼</view>
+      <view class="{{flag==1?'select':'normal'}}" id='1' bindtap='switchNav'>力行楼</view>
+      <view class="{{flag==2?'select':'normal'}}" id='2' bindtap='switchNav'>中邦楼</view>
+      <view class="{{flag==3?'select':'normal'}}" id='3' bindtap='switchNav'>文汇楼</view>
+      <view class="{{flag==4?'select':'normal'}}" id='4' bindtap='switchNav'>图书馆</view>
+      <view class="{{flag==5?'select':'normal'}}" id='5' bindtap='switchNav'>其他</view>
+    </view>
+    <!-- 右侧菜单 -->
+    <scroll-view scroll-y class="right_content">
+      <view class="zhanshi">
+        <!-- <view class="title">这是标题</view> -->
+        <view class="wupin" wx:if="{{flag==0}}">
+          <navigator url="../xiangqing/xiangqing">
+            <image class="wupintupian" mode="widthFix" src="../../images/umb.png"></image>
+            <view class="name">黑色雨伞</view>
+          </navigator>
+          <navigator>
+            <image class="wupintupian" mode="widthFix" src="../../images/comp.png"></image>
+            <view class="name">电脑</view>
+          </navigator>
+          <navigator>
+            <image class="wupintupian" mode="widthFix" src="../../images/umb.png"></image>
+            <view class="name">黑色雨伞</view>
+          </navigator>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+

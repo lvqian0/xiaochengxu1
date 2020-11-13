@@ -1,0 +1,38 @@
+/* pages/deployFunctions/deployFunctions.wxss */
+.intro {
+  margin: 10px;
+  text-align: center;
+}
+
+.page{
+  background-color: rgb(255, 255, 255);
+}
+.total{
+  width: 750rpx;
+  height: 800rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.head{
+  overflow: hidden;
+  border-radius: 160%;
+  width: 160rpx;
+  height: 160rpx;
+}
+ 
+.total_bun{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tex{
+  display: flex;
+  flex-direction: row;
+  height: 50rpx;
+}
+.bun{
+  width: 90%;
+  height:70rpx;
+}
